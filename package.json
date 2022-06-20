@@ -1,0 +1,26 @@
+{
+  "name": "curso-cypress-intermediario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/wlsf82/curso-cypress-intermediario.git"
+  },
+  "author": "Thiago Lyon <thiago.lyon.passos@gmail.com>",
+  "license": "MIT",
+  "description": "[Curso intermediário de automação de testes com Cypress](http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-intermediario) da Escola Talking About Testing.",
+  "bugs": {
+    "url": "https://gitlab.com/wlsf82/curso-cypress-intermediario/issues"
+  },
+  "homepage": "https://gitlab.com/wlsf82/curso-cypress-intermediario#readme",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "@types/faker": "^6.6.9",
+    "cypress": "^9.7.0",
+    "faker": "^4.1.0"
+  }
+}
